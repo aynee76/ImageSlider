@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.slideshow-container {
+    width: 800px;
+    height: 500px;
+    position: relative;
+}
+
+.myslides {
+    display: none;
+}
+
+.myslides img {
+    width: 100%;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    padding: 0.5rem;
+}
+
+.next {
+    right: 0;
+}
